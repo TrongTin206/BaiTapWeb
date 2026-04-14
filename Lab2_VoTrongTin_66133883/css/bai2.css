@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow:  2px 2px 5px  #ccccccb7,
+                -2px -2px 5px  #ccccccb7;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.right{
+    border-radius: 20px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 40%;
+    background-color: #7051EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+button{
+    border: 2px solid #fff;
+    border-radius: 7px;
+    padding: 13px 45px;
+    margin-top: 15px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2rem ;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#000;
+}
+.registration{
+    width: 70%;
+    text-align: center;
+}
+.bth-input{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    background-color: #DCE0E3;
+    border-radius: 7px;
+    margin: 13px;
+    padding: 0px 10px ;
+    width: 100%;
+}
+input{
+    background-color: transparent;
+    width: 90%;
+    border: none;
+    outline: none ;
+
+}
+.btn-input{
+    font-size: 1.2rem;
+}
+.btn-registration{
+    width: 90%;
+    background-color: #7051EF;
+    border-radius: 7px;
+}
+    
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.social i{
+   width: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   border: 1px solid #000;
+   border-radius: 7px;
+   margin: 0px 7px;
+   
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    padding: 10px 0px ;
+    background-color: aquamarine;
+}
+ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+
+}
+ul li a:hover{
+    background-color: brown;
+}
+/* cách 2 */
+.menu{
+    margin-top: 40px;
+    background-color: beige;
+    padding: 10px 0px;
+    display: flex;
+}
+.menu a{
+    color: rgb(2,42,15);
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.menu a:hover{
+    color: red;
+    font-weight: bold;
+}
