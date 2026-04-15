@@ -1,46 +1,44 @@
-# 🌐 Web Design Project
+# 🌐 Thiết kế Website
+
+---
+
+## 📋 Thông tin
+
+🏫 Trường         Đại học Nha Trang 
+
+👨‍🎓 Sinh viên      Võ Trọng Tín     
+
+🆔 MSSV           66133883        
+
+---
 
 ## 📌 Giới thiệu
-Đây là dự án thiết kế web nhằm tạo ra một giao diện hiện đại, thân thiện với người dùng và tối ưu trải nghiệm trên nhiều thiết bị (desktop, tablet, mobile).
 
-Mục tiêu chính:
-- Thiết kế giao diện đẹp, dễ sử dụng
-- Responsive trên mọi thiết bị
-- Tối ưu tốc độ tải trang
-- Áp dụng UI/UX hiện đại
+Là dự án thiết kế web nhằm tạo ra một giao diện hiện đại, thân thiện với người dùng.
 
 ---
 
-## 🎨 Công nghệ sử dụng
-- HTML5
-- CSS3 / SCSS
-- JavaScript (ES6+)
-- Framework (tuỳ chọn): React / Vue / Angular
-- Thư viện UI: Bootstrap / Tailwind CSS
-- Công cụ thiết kế: Figma / Adobe XD
+## 🎯 Mục tiêu  
+
+Giúp sinh viên có đủ kiến thức và kỹ năng cần thiết để có thể làm chủ công nghệ để có thể thiết kế và phát triển ứng dụng web tĩnh dựa trên nền tảng công nghệ web hiện nay.
+
+--- 
+
+## 📊 Chuẩn đầu ra
+
+- Nắm bắt các kiến thức cơ bản về Internet và World Wide Web.
+- Hiểu và vận dụng ngôn ngữ HTML để xây dựng nội dung trang web
+- Hiểu và vận dụng ngôn ngữ định dạng CSS định dạng, xây dựng giao diện cho trang web.
+- Sử dụng ngôn ngữ lập trình JavaScript và thư viện jQuery điều khiển sự kiện (các tương tác của người dùng) trong trang web
+- Vận dụng framework Bootstrap để tăng tính tương tác của trang web trên máy tính và các thiết bị di động.
 
 ---
 
-## 🧩 Tính năng chính
-- Trang chủ (Home)
-- Trang giới thiệu (About)
-- Trang dịch vụ (Services)
-- Trang liên hệ (Contact)
-- Form đăng ký / đăng nhập (nếu có)
-- Giao diện responsive
+## 🚀 Hỗ trợ đa thiết bị  
 
----
-
-## 📱 Responsive Design
-Website được thiết kế để tương thích với các thiết bị:
 - 📱 Điện thoại (Mobile)
 - 📟 Máy tính bảng (Tablet)
 - 💻 Máy tính (Desktop)
+  
+--- 
 
----
-
-## 🚀 Cách chạy dự án
-
-### 1. Clone repository
-```bash
-git clone https://github.com/your-username/your-project.git
