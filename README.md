@@ -1,103 +1,46 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <title>Java OOP Project</title>
+# 🌐 Web Design Project
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background: #0f172a;
-            color: white;
-        }
+## 📌 Giới thiệu
+Đây là dự án thiết kế web nhằm tạo ra một giao diện hiện đại, thân thiện với người dùng và tối ưu trải nghiệm trên nhiều thiết bị (desktop, tablet, mobile).
 
-        .header {
-            text-align: center;
-            padding: 40px;
-            background: linear-gradient(90deg, #ff4d4d, #4d79ff);
-        }
+Mục tiêu chính:
+- Thiết kế giao diện đẹp, dễ sử dụng
+- Responsive trên mọi thiết bị
+- Tối ưu tốc độ tải trang
+- Áp dụng UI/UX hiện đại
 
-        .header h1 {
-            margin: 0;
-            font-size: 40px;
-        }
+---
 
-        .container {
-            padding: 30px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-        }
+## 🎨 Công nghệ sử dụng
+- HTML5
+- CSS3 / SCSS
+- JavaScript (ES6+)
+- Framework (tuỳ chọn): React / Vue / Angular
+- Thư viện UI: Bootstrap / Tailwind CSS
+- Công cụ thiết kế: Figma / Adobe XD
 
-        .card {
-            background: #1e293b;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(255,255,255,0.1);
-        }
+---
 
-        .card h2 {
-            color: #38bdf8;
-        }
+## 🧩 Tính năng chính
+- Trang chủ (Home)
+- Trang giới thiệu (About)
+- Trang dịch vụ (Services)
+- Trang liên hệ (Contact)
+- Form đăng ký / đăng nhập (nếu có)
+- Giao diện responsive
 
-        .footer {
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-            background: #111827;
-        }
+---
 
-        button {
-            padding: 10px 15px;
-            border: none;
-            background: #22c55e;
-            color: white;
-            border-radius: 8px;
-            cursor: pointer;
-        }
+## 📱 Responsive Design
+Website được thiết kế để tương thích với các thiết bị:
+- 📱 Điện thoại (Mobile)
+- 📟 Máy tính bảng (Tablet)
+- 💻 Máy tính (Desktop)
 
-        button:hover {
-            background: #16a34a;
-        }
-    </style>
-</head>
+---
 
-<body>
+## 🚀 Cách chạy dự án
 
-    <div class="header">
-        <h1>☕ Java OOP Project</h1>
-        <p>Thiết kế web đơn giản bằng HTML + CSS</p>
-    </div>
-
-    <div class="container">
-
-        <div class="card">
-            <h2>📋 Class & Object</h2>
-            <p>Hiểu cách tạo class và object trong Java.</p>
-        </div>
-
-        <div class="card">
-            <h2>🔐 Encapsulation</h2>
-            <p>Đóng gói dữ liệu bằng private + getter/setter.</p>
-        </div>
-
-        <div class="card">
-            <h2>⚙️ Constructor</h2>
-            <p>Hàm khởi tạo giúp tạo object nhanh hơn.</p>
-        </div>
-
-        <div class="card">
-            <h2>🚀 Thực hành</h2>
-            <p>Áp dụng OOP vào bài tập thực tế.</p>
-            <button onclick="alert('Xin chào Java OOP!')">Bấm thử</button>
-        </div>
-
-    </div>
-
-    <div class="footer">
-        © 2026 Java OOP Project | Designed by Student
-    </div>
-
-</body>
-</html>
+### 1. Clone repository
+```bash
+git clone https://github.com/your-username/your-project.git
